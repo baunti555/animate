@@ -1,0 +1,155 @@
+ body{
+      fontb-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+h1::before{
+content: url("https://in4wp.ru/wp-content/uploads/2016/01/money.png");
+display: inline-block;
+margin-right: 10px;
+}
+h1::after{
+content: url("https://in4wp.ru/wp-content/uploads/2016/01/money.png");
+display: inline-block;
+margin-left: 10px;
+}
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.soc{
+position: fixed;
+right: 0%;
+bottom: 120px;
+background-color: cornflowerblue;
+width: 150px;
+padding: 20px;
+border-radius: 25px;
+text-align: center;
+}
+.sale{
+width: 100px;
+position: absolute;
+right: 0;
+top: 0;
+}
+.address::before{
+content: url("https://static.tildacdn.com/tild3664-3664-4230-b031-623133306562/favicon_3.ico");
+margin-right: ;
+}
+.tel::before{
+    content: url("https://avatars.mds.yandex.net/i?id=d3b23938487b2575927ee415395f532e-4395348-images-thumbs&n=13");
+   
+}
+.button:hover {
+color: cyan;
+background-color: darkgreen;
+}
+.button:focus {
+
+
+}
+.nav-link:hover{
+color: cyan;
+background-color: purple;
+border-radius: 7px;
+border-bottom: solid;
+}
+
+.article-but:hover{
+color: lawngreen;
+background-color: olive;
+}
+
+
